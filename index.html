@@ -1,1307 +1,1642 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- required meta -->
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- #favicon -->
-      <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-      <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-      <!-- #title -->
-      <title>IPASG</title>
-      <!-- #keywords -->
-      <meta name="keywords" content="charity, nonprofit, fundraising, donation, html, bootstrap, scss">
-      <!-- #description -->
-      <meta name="description" content="Nonprofit NGO Fundraising HTML5 Template">
-      <!-- google fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-         href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap"
-         rel="stylesheet">
-      <!-- main css -->
-      <link rel="stylesheet" href="assets/css/main.css">
-      <!-- responsive css -->
-      <link rel="stylesheet" href="assets/css/responsive.css">
-      <!-- color themes -->
-      <link rel="stylesheet" href="assets/css/default-theme.css">
-
-   </head>
-   <body >
-      <!--[if lt IE 9]>
+  <head>
+    <!-- required meta -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- #favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+    <!-- #title -->
+    <title>IPASG</title>
+    <!-- #keywords -->
+    <meta name="keywords" content="ipasg, permacultura" />
+    <!-- #description -->
+    <meta name="description" content="IPASG" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- color themes -->
+    <link rel="stylesheet" href="assets/css/default-theme.css" />
+  </head>
+  <body>
+    <!--[if lt IE 9]>
       <p class="browserupgrade">
-         You are using an <strong>outdated</strong> browser. Please
-         <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-         your experience and security.
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
-      <![endif]-->
-      <div class="page-wrapper">
-         
-         <!-- ==== preloader start ==== -->
-         <div class="preloader">
-            <img src="assets/images/Logo_IPASG_150x150.png" alt="Logo IPASG" class="preloader-logo">
-            <p>IPASG</p>
-         </div>
+    <![endif]-->
+    <div class="page-wrapper">
+      <!-- ==== preloader start ==== -->
+      <div class="preloader">
+        <img
+          src="assets/images/Logo_IPASG_150x150.png"
+          alt="Logo IPASG"
+          class="preloader-logo"
+        />
+        <p>IPASG</p>
+      </div>
 
-         <!-- ==== / preloader end ==== -->
-         
-         
-         <!-- ==== topbar start ==== -->
-         <div class="topbar topbar--tertiary d-none d-lg-block">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="topbar__inner">
-                        <div class="row align-items-center">
-                           <div class="col-12 col-lg-7">
-                              <div class="topbar__list-wrapper">
-                                 <ul class="topbar__list">
-                                    <li><a href="https://www.google.com/maps/dir/-30.045851,-51.3116603/Mampituba,+RS,+95572-000/@-29.4229542,-50.2723278,10.5z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x952209266564baf7:0x136cba7824fdc408!2m2!1d-49.9359871!2d-29.21173?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i
-                                       class="fa-solid fa-location-dot"></i>Estrada Municipal, 885 – Rio da Invernada – Mampituba/RS</a>
-                                    </li>
-                                    <li><a href="mailto:moradasustentavel@gmail.com">
-                                       <i class="fa-regular fa-envelope"></i>moradasustentavel@gmail.com</a>
-                                    </li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-12 col-lg-5">
-                              <div class="topbar__items justify-content-end">
-                                 <p><a href="tel: (51) 99242-9974"><i class="fa-solid fa-phone"></i> (51) 99242-9974</a>
-                                 </p>
-                                 <div class="social">
-                                    <a href="https://www.facebook.com/" target="_blank"
-                                       aria-label="share us on facebook" title="facebook">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                    </a>
-                                    <a href="https://instagram.com/" target="_blank" aria-label="share us on vimeo"
-                                       title="vimeo">
-                                    <i class="fa-brands fa-instagram"></i>
-                                    </a>
-                                    <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
-                                       title="twitter">
-                                    <i class="fa-brands fa-twitter"></i>
-                                    </a>
-                                    <a href="https://www.linkedin.com/" target="_blank"
-                                       aria-label="share us on linkedin" title="linkedin">
-                                    <i class="fa-brands fa-linkedin-in"></i>
-                                    </a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- ==== / topbar end ==== -->
+      <!-- ==== / preloader end ==== -->
 
-         <!-- ==== header start ==== -->
-         <header class="header header-tertiary">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="main-header__menu-box">
-                        <nav class="navbar p-0">
-                           <div class="navbar-logo">
-                              <a href="index.html">
-                              <img src="assets/images/logo.png" alt="Image">
-                              </a>
-                           </div>
-                           <div class="navbar__menu d-none d-xl-block">
-                              <ul class="navbar__list">
-                                 <li class="navbar__item nav-fade">
-                                    <a href="index.html" >Início</a>
-
-                                 </li>
-                                 <li class="navbar__item nav-fade">
-                                    <a href="about-us.html">Sobre nós</a>
-                                 </li>
-                                 <li class="navbar__item nav-fade">
-                                    <a href="our-team.html">Time</a>
-                                 </li>
-                                 <li class="navbar__item nav-fade">
-                                    <a href="our-causes.html">Projetos</a>
-                                 </li>
-                                 <li class="navbar__item nav-fade">
-                                    <a href="contact-us.html">Contato</a>
-                                 </li>
-                              </ul>
-                           </div>
-                           <div class="navbar__options">
-                              
-                                 <a href="donate-us.html" class="btn--secondary d-none d-md-flex">Ajude <i
-                                    class="fa-solid fa-arrow-right"></i></a>
-                              </div>
-                              <button class="open-offcanvas-nav d-flex d-xl-none" aria-label="toggle mobile menu"
-                                 title="open offcanvas menu">
-                              <span class="icon-bar top-bar"></span>
-                              <span class="icon-bar middle-bar"></span>
-                              <span class="icon-bar bottom-bar"></span>
-                              </button>
-                           </div>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </header>
-         <!-- ==== / header end ==== -->
-         
-
-<!-- ==== HEADER END OK ==== -->
-
-         <!-- ==== mobile menu start ==== -->
-         <div class="mobile-menu d-block d-xxl-none" >
-            <nav class="mobile-menu__wrapper">
-               <div class="mobile-menu__header nav-fade">
-                  <div class="logo">
-                     <a href="index.html" aria-label="home page" title="logo">
-                     <img src="assets/images/logo.png" alt="Image">
-                     </a>
-                  </div>
-                  <button aria-label="close mobile menu" class="close-mobile-menu">
-                  <i class="fa-solid fa-xmark"></i>
-                  </button>
-               </div>
-               <div class="mobile-menu__list"></div>
-               <div class="mobile-menu__cta nav-fade d-block d-md-none">
-                  <a href="donate-us.html" class="btn--primary ">Ajude<i
-                     class="fa-solid fa-arrow-right"></i></a>
-               </div>
-               <div class="mobile-menu__social social nav-fade">
-                  <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook"
-                     title="facebook">
-                  <i class="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo" title="vimeo">
-                  <i class="fa-brands fa-instagram"></i>
-                  </a>
-                  <a href="https://x.com/" target="_blank" aria-label="share us on twitter" title="twitter">
-                  <i class="fa-brands fa-twitter"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin"
-                     title="linkedin">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                  </a>
-               </div>
-            </nav>
-         </div>
-         <div class="mobile-menu__backdrop"></div>
-         <!-- ==== / mobile menu end ==== -->
-
-         <!-- ==== sidebar cart start ==== -->
-
-         <div class="cart-backdrop"></div>
-         <!-- ==== / sidebar cart end ==== -->
-         <!-- ==== banner section start ==== -->
-         <section class="banner-three">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-12 col-lg-8">
-                     <div class="banner-three__slider swiper">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slide">
-                              <div class="banner-three__content">
-                                 <span class="sub-title"><i class="icon-donation"></i>Conectando pessoas à terra</span>
-
-                                 <h1 class="title-animation">Somos <br>
-                                    o <span class="bottom-line">IPASG</span> Instituto de Permacultura da Serra Geral
-                                 </h1>
-
-                                 <p>Atuamos com permacultura, educação ambiental e projetos regenerativos que unem natureza e comunidade.</p>
-
-                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Contato <i class="fa-solid fa-arrow-right"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="banner-three__content">
-                                 <span class="sub-title"><i class="icon-donation"></i>Conectando pessoas à terra</span>
-
-                                 <h1 class="title-animation">Construindo um <br>
-                                 futuro <span class="bottom-line">regenerativo</span>
-                                 </h1>
-
-                                 <p>Desenvolvemos soluções sustentáveis em agroecologia, manejo da água e arquitetura natural.</p>
-
-                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Contato <i class="fa-solid fa-arrow-right"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="banner-three__content">
-                                 <span class="sub-title"><i class="icon-donation"></i>Conectando pessoas à terra</span>
-
-                                 <h1 class="title-animation">Somos <br>
-                                    o <span class="bottom-line">IPASG</span> Instituto de Permacultura da Serra Geral
-                                 </h1>
-
-                                 <p>Denouncing pleasure and
-                                    praising pain was born and will give you saidul complete great
-                                    explorer of the truth the master-builder.
-                                 </p>
-                                 <div class="banner__content-cta cta">
-                                    <a href="our-causes.html" aria-label="about us" title="about us"
-                                       class="btn--tertiary">Ver projetos <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact-us.html" aria-label="contact us" title="contact us"
-                                       class="btn--primary">Contato <i class="fa-solid fa-arrow-right"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-12 col-lg-4 d-none d-lg-block">
-                     <div class="banner-three__thumb">
-                        <div class="banner-three__thumb-inner">
-                           <div class="group">
-                              <div class="m-one move-image">
-                                 <img src="assets/images/banner/m-one.png" alt="Image" data-aos="fade-right"
-                                    data-aos-duration="1000">
-                              </div>
-                              <div class="m-three move-image">
-                                 <img src="assets/images/banner/m-three.png" alt="Image" data-aos="fade-right"
-                                    data-aos-duration="1000" data-aos-delay="300">
-                              </div>
-                           </div>
-                           <div class="group">
-                              <div class="m-two move-image">
-                                 <img src="assets/images/banner/m-two.png" alt="Image" data-aos="zoom-in"
-                                    data-aos-duration="1000">
-                              </div>
-                              <div class="m-four move-image">
-                                 <img src="assets/images/banner/m-four.png" alt="Image" data-aos="zoom-in"
-                                    data-aos-duration="1000" data-aos-delay="300">
-                              </div>
-                           </div>
-                           <div class="group">
-                              <div class="m-five move-image">
-                                 <img src="assets/images/banner/m-five.png" alt="Image" data-aos="fade-left"
-                                    data-aos-duration="1000" data-aos-delay="300">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="shape-lg">
-               <img src="assets/images/banner/banner-three-bg.png" alt="Image" data-aos="zoom-in"
-                  data-aos-duration="1000">
-            </div>
-            <div class="sprade-shape">
-               <img src="assets/images/sprade-base.png" alt="Image" class="base-img" data-aos="zoom-in"
-                  data-aos-duration="1000">
-            </div>
-            <div class="parasuit">
-               <img src="assets/images/parasuit.png" alt="Image">
-            </div>
-         </section>
-         <!-- ==== / banner section end ==== -->
-         <!-- ==== overview section start ==== -->
-         <section class="overview">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="overview__inner" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-                        <div class="overview__single overview__left">
-                           <h4>Total Arrecadado
-                           </h4>
-                           <div class="cause__progress progress-bar-single">
-                              <div class="cause-progress__bar">
-                                 <div class="progress-bar-wrapper" data-percent="15%">
-                                    <div class="progress-bar">
-                                       <div class="progress-bar-percent"><span class="percent-value">15%</span>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="cause-progress__goal">
-                              <div class="goal-single">
-                                 <span>Arrecadado</span>
-                                 <h5>R$ 15.000</h5>
-                              </div>
-                              <div class="goal-single">
-                                 <span>Meta</span>
-                                 <h5>R$ 100.000</h5>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="overview__single overview__right">
-                           <span>Permacultura</span>
-                           <h4><a href="cause-details.html">Banheiro Ecológico</a></h4>
-                           <p>Charity is the act of extending love and kindness to others which is a conscious act
-                              but the decision is made by the heart,
-                           </p>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-         <!-- ==== / overview section end ==== -->
-         <!-- ==== difference section start ==== -->
-         <section class="difference-three">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col-12 col-lg-5">
-                     <div class="difference-three__thumb d-none d-lg-block">
-                        <div class="difference-three__thumb-inner">
-                           <div class="thumb-lg" data-aos="fade-right" data-aos-duration="1000">
-                              <img src="assets/images/difference/thumb-lg-two.png" alt="Image"
-                                 >
-                           </div>
-                           <div class="spade">
-                              <img src="assets/images/difference/spade.png" alt="Image" class="base-img">
-                           </div>
-                           <div class="thumb-sm" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                              <img src="assets/images/difference/thub-sm-two.png" alt="Image">
-                           </div>
-                           <div class="line">
-                              <img src="assets/images/difference/line.png" alt="Image">
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+      <!-- ==== topbar start ==== -->
+      <div class="topbar topbar--tertiary d-none d-lg-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="topbar__inner">
+                <div class="row align-items-center">
                   <div class="col-12 col-lg-7">
-                     <div class="difference-three__content">
-                        <div class="section__content">
-                           <span class="sub-title"><i class="icon-donation"></i>Ajude o IPASG</span>
-                           <h2 class="title-animation">Faça uma <span>Doação</span> e ajude o instituto nos projetos
-                           </h2>
-                           <p>Lorem Ipsum is simply dummy a of the printing and type setting industry Loreaim Ipsum
-                              has been the industry's standard dummy
-                           </p>
-                        </div>
-                        <div class="differnce-quote">
-                           <blockquote>
-                              <q><span>Lorem ipsum dolor</span> sit amet consectetur convallis
-                              ultrices sociis fermentum orci convallis</q>
-                           </blockquote>
-                        </div>
-                        <div class="help__content-list">
-                           <ul>
-                              <li><i class="fa-regular fa-circle-check"></i> Objetivo 1</li>
-                              <li><i class="fa-regular fa-circle-check"></i> Objetivo 1
-                              </li>
-                              <li><i class="fa-regular fa-circle-check"></i> Juntos podemos mais</li>
-                              <li><i class="fa-regular fa-circle-check"></i> Comunidades sustentáveis</li>
-                              <li><i class="fa-regular fa-circle-check"></i> Cada ação conta</li>
-                              <li><i class="fa-regular fa-circle-check"></i> Cuidar da natureza</li>
-                           </ul>
-                        </div>
-                        <div class="difference-three-cta">
-                           <a href="about-us.html" aria-label="about us" title="about us"
-                              class="btn--primary">Sobre nós <i class="fa-solid fa-arrow-right"></i></a>
-                           
-                        </div>
-                     </div>
+                    <div class="topbar__list-wrapper">
+                      <ul class="topbar__list">
+                        <li>
+                          <a
+                            href="https://www.google.com/maps/dir/-30.045851,-51.3116603/Mampituba,+RS,+95572-000/@-29.4229542,-50.2723278,10.5z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x952209266564baf7:0x136cba7824fdc408!2m2!1d-49.9359871!2d-29.21173?entry=ttu&g_ep=EgoyMDI1MDcwNi4wIKXMDSoASAFQAw%3D%3D"
+                            target="_blank"
+                            ><i class="fa-solid fa-location-dot"></i>Estrada
+                            Municipal, 885 – Rio da Invernada – Mampituba/RS</a
+                          >
+                        </li>
+                        <li>
+                          <a href="mailto:moradasustentavel@gmail.com">
+                            <i class="fa-regular fa-envelope"></i
+                            >moradasustentavel@gmail.com</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
                   </div>
-               </div>
+                  <div class="col-12 col-lg-5">
+                    <div class="topbar__items justify-content-end">
+                      <p>
+                        <a href="tel: (51) 99242-9974"
+                          ><i class="fa-solid fa-phone"></i> (51) 99242-9974</a
+                        >
+                      </p>
+                      <div class="social">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          aria-label="share us on facebook"
+                          title="facebook"
+                        >
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a
+                          href="https://instagram.com/"
+                          target="_blank"
+                          aria-label="share us on vimeo"
+                          title="vimeo"
+                        >
+                          <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a
+                          href="https://x.com/"
+                          target="_blank"
+                          aria-label="share us on twitter"
+                          title="twitter"
+                        >
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          aria-label="share us on linkedin"
+                          title="linkedin"
+                        >
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </section>
-         <!-- ==== / difference section end ==== -->
-         
-         
-         <!-- ==== donation section start ==== -->
-         <section class="donation-future">
-            <div class="container">
-               <div class="row gutter-40">
-                  <div class="col-12 col-lg-6 col-xl-7">
-                     <div class="donation-future__content">
-                        <div class="section__content" data-aos="fade-up" data-aos-duration="1000">
-                           <span class="sub-title"><i class="icon-donation"></i>Ajude o IPASG a cuidar do nosso planeta</span>
-                           <h2 class="title-animation">Contruindo um novo <span>Futuro</span>
-                              Juntos
-                           </h2>
-                           <div class="video-btn-wrapper">
-                              <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank"
-                                 title="video Player" class="open-video-popup">
-                              <i class="icon-play"></i>
-                              </a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-12 col-lg-6 col-xl-5">
-                     <div class="donation-future__thumb" data-background="assets/images/donation/thumb-bg.png"
-                        data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-                        <h4>Ajuda para Projeto de Biodigestor</h4>
-                        <div class="cause__progress progress-bar-single">
-                           <div class="cause-progress__bar">
-                              <div class="progress-bar-wrapper" data-percent="60%">
-                                 <div class="progress-bar">
-                                    <div class="progress-bar-percent"><span class="percent-value"></span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="cause-progress__goal">
-                           <p>Arrecadado: <span class="raised">R$ 8500,00</span></p>
-                           <p>Meta: <span class="goal">R$ 15000,00</span></p>
-                        </div>
-                        <hr>
-                        <div class="made-amount">
-                           <span class="donation-amount">R$ 100</span>
-                           <span class="donation-amount">R$ 200</span>
-                           <span class="donation-amount active">R$ 500</span>
-                           <span class="donation-amount">R$ 1000</span>
-                           <span class="donation-amount">R$ 10000</span>
-                        </div>
-                        <div class="cta">
-                           <a href="donate-us.html" class="btn--primary">Faça uma doação <i class="icon-heart"></i></a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="donation-bg">
-               <img src="assets/images/donation/bg.png" alt="Image" class="parallax-image">
-               <img src="assets/images/donation/shape.png" alt="Image" class="shape">
-            </div>
-         </section>
-         <!-- ==== / donation section end ==== -->
-         <!-- ==== cause slider section start ==== -->
-         <section class="cause cause-three">
-            <div class="container">
-               <div class="row gutter-30 align-items-center">
-                  <div class="col-12 col-md-8 col-xl-7">
-                     <div class="section__header">
-                        <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                        people</span>
-                        <h2 class="title-animation">Help & <span>donate</span> them when
-                           they're in need
-                        </h2>
-                     </div>
-                  </div>
-                  <div class="col-12 col-md-4 col-xl-5">
-                     <div class="slider-navigation">
-                        <button type="button" aria-label="prev slide" title="prev slide"
-                           class="prev-cause slider-btn">
-                        <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        <button type="button" aria-label="next slide" title="next slide"
-                           class="next-cause slider-btn slider-btn-next">
-                        <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                     </div>
-                  </div>
-               </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="cause__slider-wrapper">
-                        <div class="cause__slider swiper">
-                           <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/one.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Health</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Children we work with</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">85%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="85%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/two.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Food</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Help For Education</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">90%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="90%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/three.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Health</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Help For Food</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">75%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="75%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/four.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Food</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Give health support</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">65%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="65%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/one.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Health</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Children we work with</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">85%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="85%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/two.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Food</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Help For Education</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">90%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="90%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/three.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Health</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Help For Food</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">75%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="75%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="cause__slider-inner">
-                                    <div class="cause__slider-single">
-                                       <div class="thumb">
-                                          <a href="cause-details.html">
-                                          <img src="assets/images/cause/four.png" alt="Image">
-                                          </a>
-                                          <div class="tag">
-                                             <a href="our-causes.html">Food</a>
-                                          </div>
-                                       </div>
-                                       <div class="content">
-                                          <h6><a href="cause-details.html">Give health support</a></h6>
-                                          <p>Lorem ipsum dolor sit amet, consete
-                                             sadipscing elitr, sed diam nonum
-                                          </p>
-                                       </div>
-                                       <div class="cause__slider-cta">
-                                          <div class="cause__progress progress-bar-single">
-                                             <div class="cause-progress__intro">
-                                                <p><span>Donation</span>
-                                                   <span class="percent-value">65%</span>
-                                                </p>
-                                             </div>
-                                             <div class="cause-progress__bar">
-                                                <div class="progress-bar-wrapper" data-percent="65%">
-                                                   <div class="progress-bar">
-                                                      <div class="progress-bar-percent">
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="cause-progress__goal">
-                                                <p>Raised: <span class="raised">$8500</span></p>
-                                                <p>Goal: <span class="goal">$1,0000</span></p>
-                                             </div>
-                                          </div>
-                                          <div class="cause__cta">
-                                             <a href="donate-us.html" aria-label="donate now"
-                                                title="donate now" class="btn--secondary">Donate Now</a>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="spade">
-               <img src="assets/images/help/spade.png" alt="Image">
-            </div>
-         </section>
-         <!-- ==== / cause slider section end ==== -->
+          </div>
+        </div>
+      </div>
+      <!-- ==== / topbar end ==== -->
 
-         <!-- ==== help section start ==== -->
-         <section class="help-three">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="help-three__inner">
-                        <div class="section__header-secondary" data-aos="fade-up" data-aos-duration="1000">
-                           <div class="row gutter-30 align-items-center">
-                              <div class="col-12 col-lg-8 col-xxl-7">
-                                 <div class="section__header mb-0">
-                                    <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                                    people</span>
-                                    <h2 class="title-animation">Helping each other can
-                                       make <span>world</span> better
-                                    </h2>
-                                 </div>
-                              </div>
-                              <div class="col-12 col-lg-4 col-xxl-5">
-                                 <div class="help-cta">
-                                    <a href="about-us.html" aria-label="our team" title="our team"
-                                       class="btn--primary">More About Us<i
-                                       class="fa-solid fa-arrow-right"></i></a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="help-three__wrapper">
-                           <div class="row gutter-60">
-                              <div class="col-12 col-md-6 col-xxl-3">
-                                 <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000">
-                                    <div class="help-three__thumb">
-                                       <div class="thumb">
-                                          <i class="icon-pack"></i>
-                                       </div>
-                                       <div class="help-three__tag">
-                                          <h6>Step - 01</h6>
-                                       </div>
-                                    </div>
-                                    <div class="help-three__content">
-                                       <h6>Select Services</h6>
-                                       <p>Pellentesque habitant morbi trist
-                                          fames ac turp egestas. Aliquam
-                                          enim feugiat mattis.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-12 col-md-6 col-xxl-3">
-                                 <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000"
-                                    data-aos-delay="300">
-                                    <div class="help-three__thumb">
-                                       <div class="thumb">
-                                          <i class="icon-credit-card"></i>
-                                       </div>
-                                       <div class="help-three__tag">
-                                          <h6>Step - 02</h6>
-                                       </div>
-                                    </div>
-                                    <div class="help-three__content">
-                                       <h6>Percel Information</h6>
-                                       <p>Pellentesque habitant morbi trist
-                                          fames ac turp egestas. Aliquam
-                                          enim feugiat mattis.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-12 col-md-6 col-xxl-3">
-                                 <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000"
-                                    data-aos-delay="600">
-                                    <div class="help-three__thumb">
-                                       <div class="thumb">
-                                          <i class="icon-ship"></i>
-                                       </div>
-                                       <div class="help-three__tag">
-                                          <h6>Step - 03</h6>
-                                       </div>
-                                    </div>
-                                    <div class="help-three__content">
-                                       <h6>Transportation</h6>
-                                       <p>Pellentesque habitant morbi trist
-                                          fames ac turp egestas. Aliquam
-                                          enim feugiat mattis.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="col-12 col-md-6 col-xxl-3">
-                                 <div class="help-three__single" data-aos="fade-up" data-aos-duration="1000"
-                                    data-aos-delay="900">
-                                    <div class="help-three__thumb">
-                                       <div class="thumb">
-                                          <i class="icon-truck"></i>
-                                       </div>
-                                       <div class="help-three__tag">
-                                          <h6>Step - 04</h6>
-                                       </div>
-                                    </div>
-                                    <div class="help-three__content">
-                                       <h6>Takeover Products</h6>
-                                       <p>Pellentesque habitant morbi trist
-                                          fames ac turp egestas. Aliquam
-                                          enim feugiat mattis.
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <img src="assets/images/v-line.png" alt="Image" class="v-line d-none d-xxl-block">
-                        </div>
-                     </div>
+      <!-- ==== header start ==== -->
+      <header class="header header-tertiary">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="main-header__menu-box">
+                <nav class="navbar p-0">
+                  <div class="navbar-logo">
+                    <a href="index.html">
+                      <img src="assets/images/logo.png" alt="Image" />
+                    </a>
                   </div>
-               </div>
-            </div>
-            <div class="help-three-bg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-               <img src="assets/images/bg-one.png" alt="Image" class="bg-help">
-               <div class="poor-boy">
-                  <img src="assets/images/poor-boy.png" alt="Image" class="poor">
-                  <img src="assets/images/shape-three.png" alt="Image" class="shape">
-               </div>
-               <div class="parasuit">
-                  <img src="assets/images/parasuit.png" alt="Image">
-               </div>
-            </div>
-         </section>
-         <!-- ==== / help section end ==== -->
-         <!-- ==== partner section start ==== -->
-         <div class="partner">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="partner__slider swiper">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/one.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/two.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/three.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/four.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/five.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/one.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/two.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/three.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/four.png" alt="Image">
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="partner__slider-single">
-                                 <img src="assets/images/sponsor/five.png" alt="Image">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="navbar__menu d-none d-xl-block">
+                    <ul class="navbar__list">
+                      <li class="navbar__item nav-fade">
+                        <a href="index.html">Início</a>
+                      </li>
+                      <li class="navbar__item nav-fade">
+                        <a href="about-us.html">Sobre nós</a>
+                      </li>
+                      <li class="navbar__item nav-fade">
+                        <a href="our-team.html">Membros</a>
+                      </li>
+                      <li class="navbar__item nav-fade">
+                        <a href="our-causes.html">Projetos</a>
+                      </li>
+                      <li class="navbar__item nav-fade">
+                        <a href="contact-us.html">Contato</a>
+                      </li>
+                    </ul>
                   </div>
-               </div>
-            </div>
-         </div>
-         <!-- ==== / partner section end ==== -->
-         <!-- ==== counter section start ==== -->
-         <section class="counter">
-            <div class="container">
-               <div class="row">
-                  <div class="col-12">
-                     <div class="counter__inner">
-                        <div class="counter__single" data-aos="fade-up" data-aos-duration="1000">
-                           <div class="thumb">
-                              <i class="icon-support-hand"></i>
-                           </div>
-                           <div class="counter__content">
-                              <h2><span class="odometer" data-odometer-final="400"></span><span
-                                 class="prefix">+</span>
-                              </h2>
-                              <h5>Team member</h5>
-                           </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                           data-aos-delay="300">
-                           <div class="thumb">
-                              <i class="icon-review"></i>
-                           </div>
-                           <div class="counter__content">
-                              <h2><span class="odometer" data-odometer-final="80"></span>K<span
-                                 class="prefix">+</span>
-                              </h2>
-                              <h5>Client's review</h5>
-                           </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                           data-aos-delay="600">
-                           <div class="thumb">
-                              <i class="icon-documents"></i>
-                           </div>
-                           <div class="counter__content">
-                              <h2><span class="odometer" data-odometer-final="100"></span>K<span
-                                 class="prefix">+</span>
-                              </h2>
-                              <h5>Completed projects</h5>
-                           </div>
-                        </div>
-                        <div class="divider"></div>
-                        <div class="counter__single" data-aos="fade-up" data-aos-duration="1000"
-                           data-aos-delay="900">
-                           <div class="thumb">
-                              <i class="icon-award"></i>
-                           </div>
-                           <div class="counter__content">
-                              <h2><span class="odometer" data-odometer-final="40"></span>K<span
-                                 class="prefix">+</span>
-                              </h2>
-                              <h5>Winning award</h5>
-                           </div>
-                        </div>
-                     </div>
+                  <div class="navbar__options">
+                    <a
+                      href="donate-us.html"
+                      class="btn--secondary d-none d-md-flex"
+                      >Ajude <i class="fa-solid fa-arrow-right"></i
+                    ></a>
                   </div>
-               </div>
+                  <button
+                    class="open-offcanvas-nav d-flex d-xl-none"
+                    aria-label="toggle mobile menu"
+                    title="open offcanvas menu"
+                  >
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                  </button>
+                </nav>
+              </div>
             </div>
-            <div class="poor">
-               <img src="assets/images/poor-two.png" alt="Image" class="parallax-image">
+          </div>
+        </div>
+      </header>
+      <!-- ==== / header end ==== -->
+
+      <!-- ==== HEADER END OK ==== -->
+
+      <!-- ==== mobile menu start ==== -->
+      <div class="mobile-menu d-block d-xxl-none">
+        <nav class="mobile-menu__wrapper">
+          <div class="mobile-menu__header nav-fade">
+            <div class="logo">
+              <a href="index.html" aria-label="home page" title="logo">
+                <img src="assets/images/logo.png" alt="Image" />
+              </a>
             </div>
-            <div class="shape-left" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
-               <img src="assets/images/cta/shape-left.png" alt="Image" class="base-img">
-            </div>
-         </section>
-         <!-- ==== / counter section end ==== -->
-         <!-- ==== testimonial section start ==== -->
-         <section class="testimonial-three">
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-xl-7">
-                     <div class="section__header text-center" data-aos="fade-up" data-aos-duration="1000">
-                        <span class="sub-title"><i class="icon-donation"></i>Start donating poor
-                        people</span>
-                        <h2 class="title-animation">What Our <span>Clients</span> Say About Our Volunteers</h2>
-                     </div>
+            <button aria-label="close mobile menu" class="close-mobile-menu">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+          <div class="mobile-menu__list"></div>
+          <div class="mobile-menu__cta nav-fade d-block d-md-none">
+            <a href="donate-us.html" class="btn--primary"
+              >Ajude<i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+          <div class="mobile-menu__social social nav-fade">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              aria-label="share us on facebook"
+              title="facebook"
+            >
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a
+              href="https://vimeo.com/"
+              target="_blank"
+              aria-label="share us on vimeo"
+              title="vimeo"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://x.com/"
+              target="_blank"
+              aria-label="share us on twitter"
+              title="twitter"
+            >
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              aria-label="share us on linkedin"
+              title="linkedin"
+            >
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="mobile-menu__backdrop"></div>
+      <!-- ==== / mobile menu end ==== -->
+
+      <!-- ==== banner section start ==== -->
+      <section class="banner-three">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+              <div class="banner-three__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="banner-three__content">
+                      <span class="sub-title">
+                        <i class="icon-donation"></i>Conectando pessoas à terra
+                      </span>
+
+                      <h1 class="title-animation">
+                        Somos <br />
+                        o <span class="bottom-line">IPASG</span>
+                      </h1>
+
+                      <p>
+                        Atuamos com permacultura, educação ambiental e projetos
+                        regenerativos que unem natureza e comunidade.
+                      </p>
+
+                      <div class="banner__content-cta cta">
+                        <a
+                          href="our-causes.html"
+                          aria-label="ver projetos"
+                          title="ver projetos"
+                          class="btn--tertiary"
+                        >
+                          Ver projetos <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a
+                          href="contact-us.html"
+                          aria-label="contato"
+                          title="contato"
+                          class="btn--primary"
+                        >
+                          Contato <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
                   </div>
-               </div>
-               <div class="row justify-content-center">
-                  <div class="col-12 col-lg-10 col-xl-9 col-xxl-12">
-                     <div class="testimonial-three__inner">
-                        <div class="testimonial-three__slider swiper">
-                           <div class="swiper-wrapper">
-                              <div class="swiper-slide">
-                                 <div class="testimonial-three__single">
-                                    <div class="thumb">
-                                       <img src="assets/images/author-three.png" alt="Image">
-                                       <div class="review">
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                       </div>
-                                    </div>
-                                    <div class="testimonial-three__content">
-                                       <div class="author-info">
-                                          <div class="author-content">
-                                             <h6>Charlie Dublin</h6>
-                                             <p>Global Partner</p>
-                                          </div>
-                                          <div class="quote">
-                                             <i class="icon-quotation-two"></i>
-                                          </div>
-                                       </div>
-                                       <p>Foundation was established with a small idea that was incepted in the
-                                          minds of its promoters in the year 1994! We skilfully guide
-                                          applicants for immigration process to any country they aspire to
-                                          settle down immigration advisory
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="testimonial-three__single">
-                                    <div class="thumb">
-                                       <img src="assets/images/author-four.png" alt="Image">
-                                       <div class="review">
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                       </div>
-                                    </div>
-                                    <div class="testimonial-three__content">
-                                       <div class="author-info">
-                                          <div class="author-content">
-                                             <h6>Lablu Kuel</h6>
-                                             <p>Global Partner</p>
-                                          </div>
-                                          <div class="quote">
-                                             <i class="icon-quotation-two"></i>
-                                          </div>
-                                       </div>
-                                       <p>Foundation was established with a small idea that was incepted in the
-                                          minds of its promoters in the year 1994! We skilfully guide
-                                          applicants for immigration process to any country they aspire to
-                                          settle down immigration advisory
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="testimonial-three__single">
-                                    <div class="thumb">
-                                       <img src="assets/images/author-three.png" alt="Image">
-                                       <div class="review">
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                       </div>
-                                    </div>
-                                    <div class="testimonial-three__content">
-                                       <div class="author-info">
-                                          <div class="author-content">
-                                             <h6>Charlie Dublin</h6>
-                                             <p>Global Partner</p>
-                                          </div>
-                                          <div class="quote">
-                                             <i class="icon-quotation-two"></i>
-                                          </div>
-                                       </div>
-                                       <p>Foundation was established with a small idea that was incepted in the
-                                          minds of its promoters in the year 1994! We skilfully guide
-                                          applicants for immigration process to any country they aspire to
-                                          settle down immigration advisory
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="swiper-slide">
-                                 <div class="testimonial-three__single">
-                                    <div class="thumb">
-                                       <img src="assets/images/author-four.png" alt="Image">
-                                       <div class="review">
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                          <i class="icon-star"></i>
-                                       </div>
-                                    </div>
-                                    <div class="testimonial-three__content">
-                                       <div class="author-info">
-                                          <div class="author-content">
-                                             <h6>Lablu Kuel</h6>
-                                             <p>Global Partner</p>
-                                          </div>
-                                          <div class="quote">
-                                             <i class="icon-quotation-two"></i>
-                                          </div>
-                                       </div>
-                                       <p>Foundation was established with a small idea that was incepted in the
-                                          minds of its promoters in the year 1994! We skilfully guide
-                                          applicants for immigration process to any country they aspire to
-                                          settle down immigration advisory
-                                       </p>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                  <div class="swiper-slide">
+                    <div class="banner-three__content">
+                      <span class="sub-title">
+                        <i class="icon-donation"></i>Unindo forças pela terra
+                      </span>
+
+                      <h1 class="title-animation">
+                        Construindo um <br />
+                        futuro <span class="bottom-line">verde</span> e
+                      </h1>
+
+                      <p>
+                        Desenvolvemos soluções sustentáveis em agroecologia,
+                        manejo da água e arquitetura natural.
+                      </p>
+
+                      <div class="banner__content-cta cta">
+                        <a
+                          href="our-causes.html"
+                          aria-label="about us"
+                          title="about us"
+                          class="btn--tertiary"
+                          >Ver projetos <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                        <a
+                          href="contact-us.html"
+                          aria-label="contact us"
+                          title="contact us"
+                          class="btn--primary"
+                          >Contato <i class="fa-solid fa-arrow-right"></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="banner-three__content">
+                      <span class="sub-title">
+                        <i class="icon-donation"></i>Inspirando a mudança real
+                      </span>
+
+                      <h1 class="title-animation">
+                        Juntos pela <br />
+                        <span class="bottom-line">terra</span> e o futuro
+                      </h1>
+
+                      <p>
+                        Promovemos práticas sustentáveis que respeitam a
+                        natureza e fortalecem a comunidade, construindo juntos
+                        um mundo mais equilibrado.
+                      </p>
+
+                      <div class="banner__content-cta cta">
+                        <a
+                          href="our-causes.html"
+                          aria-label="ver projetos"
+                          title="ver projetos"
+                          class="btn--tertiary"
+                        >
+                          Ver projetos <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a
+                          href="contact-us.html"
+                          aria-label="contato"
+                          title="contato"
+                          class="btn--primary"
+                        >
+                          Contato <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-4 d-none d-lg-block">
+              <div class="banner-three__thumb">
+                <div class="banner-three__thumb-inner">
+                  <div class="group">
+                    <div class="m-one move-image">
+                      <img
+                        src="assets/images/banner/m-one.png"
+                        alt="Image"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div class="m-three move-image">
+                      <img
+                        src="assets/images/banner/m-three.png"
+                        alt="Image"
+                        data-aos="fade-right"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                      />
+                    </div>
+                  </div>
+                  <div class="group">
+                    <div class="m-two move-image">
+                      <img
+                        src="assets/images/banner/m-two.png"
+                        alt="Image"
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                      />
+                    </div>
+                    <div class="m-four move-image">
+                      <img
+                        src="assets/images/banner/m-four.png"
+                        alt="Image"
+                        data-aos="zoom-in"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                      />
+                    </div>
+                  </div>
+                  <div class="group">
+                    <div class="m-five move-image">
+                      <img
+                        src="assets/images/banner/m-five.png"
+                        alt="Image"
+                        data-aos="fade-left"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shape-lg">
+          <img
+            src="assets/images/banner/banner-three-bg.png"
+            alt="Image"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </div>
+        <div class="sprade-shape">
+          <img
+            src="assets/images/sprade-base.png"
+            alt="Image"
+            class="base-img"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          />
+        </div>
+        <div class="parasuit">
+          <img src="assets/images/parasuit.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / banner section end ==== -->
+
+      <!-- ==== Overview Section Start ==== -->
+      <section class="overview">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="overview__inner"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                <!-- Total Arrecadado -->
+                <div class="overview__single overview__left">
+                  <h4>Total Arrecadado</h4>
+                  <div class="cause__progress progress-bar-single">
+                    <div class="cause-progress__bar">
+                      <div class="progress-bar-wrapper" data-percent="15%">
+                        <div class="progress-bar">
+                          <div class="progress-bar-percent">
+                            <span class="percent-value">15%</span>
+                          </div>
                         </div>
-                     </div>
+                      </div>
+                    </div>
                   </div>
-               </div>
-               <div class="row">
-                  <div class="col-12">
-                     <div class="slider-navigation">
-                        <button type="button" aria-label="prev slide" title="prev slide"
-                           class="prev-testimonial-three slider-btn">
-                        <i class="fa-solid fa-arrow-left"></i>
-                        </button>
-                        <button type="button" aria-label="next slide" title="next slide"
-                           class="next-testimonial-three slider-btn slider-btn-next">
-                        <i class="fa-solid fa-arrow-right"></i>
-                        </button>
-                     </div>
+                  <div class="cause-progress__goal">
+                    <div class="goal-single">
+                      <span>Arrecadado</span>
+                      <h5>R$ 15.000</h5>
+                    </div>
+                    <div class="goal-single">
+                      <span>Meta</span>
+                      <h5>R$ 100.000</h5>
+                    </div>
                   </div>
-               </div>
+                </div>
+
+                <!-- Projeto em destaque -->
+                <div class="overview__single overview__right">
+                  <span>Permacultura</span>
+                  <h4><a href="cause-details.html">Banheiro Ecológico</a></h4>
+                  <p>
+                    O projeto Banheiro Ecológico promove sustentabilidade e
+                    saúde ambiental, levando soluções acessíveis para
+                    comunidades que precisam.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="spade">
-               <img src="assets/images/community/spade.png" alt="Image" class="base-img">
+          </div>
+        </div>
+      </section>
+      <!-- ==== / Overview Section End ==== -->
+
+      <!-- ==== Difference Section Start ==== -->
+      <section class="difference-three">
+        <div class="container">
+          <div class="row align-items-center">
+            <!-- Imagem lateral -->
+            <div class="col-12 col-lg-5">
+              <div class="difference-three__thumb d-none d-lg-block">
+                <div class="difference-three__thumb-inner">
+                  <div
+                    class="thumb-lg"
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                  >
+                    <img
+                      src="assets/images/difference/thumb-lg-two.png"
+                      alt="Equipe do IPASG"
+                    />
+                  </div>
+                  <div class="spade">
+                    <img
+                      src="assets/images/difference/spade.png"
+                      alt="Elemento decorativo"
+                      class="base-img"
+                    />
+                  </div>
+                  <div
+                    class="thumb-sm"
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                    data-aos-delay="300"
+                  >
+                    <img
+                      src="assets/images/difference/thub-sm-two.png"
+                      alt="Atividade do projeto"
+                    />
+                  </div>
+                  <div class="line">
+                    <img
+                      src="assets/images/difference/line.png"
+                      alt="Linha ilustrativa"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="spade-green">
-               <img src="assets/images/sprade-green.png" alt="Image">
+
+            <!-- Conteúdo -->
+            <div class="col-12 col-lg-7">
+              <div class="difference-three__content">
+                <div class="section__content">
+                  <span class="sub-title">
+                    <i class="icon-donation"></i>Quem somos
+                  </span>
+                  <h2 class="title-animation">
+                    Juntos por um <span>futuro sustentável</span>
+                  </h2>
+                  <p>
+                    O IPASG é um instituto sem fins lucrativos que promove ações
+                    voltadas à sustentabilidade, educação ambiental e projetos
+                    sociais que fortalecem comunidades e preservam a natureza.
+                  </p>
+                </div>
+
+                <div class="differnce-quote">
+                  <blockquote>
+                    <q>
+                      <span>Cada atitude importa.</span> Vamos transformar nossa
+                      realidade por meio da educação, cooperação e ações
+                      conscientes.
+                    </q>
+                  </blockquote>
+                </div>
+
+                <div class="help__content-list">
+                  <ul>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Educação
+                      socioambiental
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Projetos
+                      sustentáveis para comunidades
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Parcerias com
+                      escolas e organizações
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Mobilizações
+                      ecológicas e mutirões
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Preservação de
+                      áreas naturais
+                    </li>
+                    <li>
+                      <i class="fa-regular fa-circle-check"></i> Fortalecimento
+                      da economia verde
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="difference-three-cta">
+                  <a
+                    href="about-us.html"
+                    class="btn--primary"
+                    aria-label="Conheça mais sobre o IPASG"
+                    title="Sobre o IPASG"
+                  >
+                    Sobre o Instituto <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
             </div>
-         </section>
-         <!-- ==== / testimonial section end ==== -->
-         <!-- ==== faq section start ==== -->
-         <section class="faq">
+          </div>
+        </div>
+      </section>
+      <!-- ==== / Difference Section End ==== -->
+
+      <!-- ==== Donation Section Start ==== -->
+      <section class="donation-future">
+        <div class="container">
+          <div class="row gutter-40">
+            <!-- Conteúdo -->
+            <div class="col-12 col-lg-6 col-xl-7">
+              <div class="donation-future__content">
+                <div
+                  class="section__content"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <span class="sub-title">
+                    <i class="icon-donation"></i>Ajude o IPASG a cuidar do
+                    planeta
+                  </span>
+                  <h2 class="title-animation">
+                    Construindo um <span>futuro sustentável</span> juntos
+                  </h2>
+                  <p>
+                    Seu apoio é essencial para continuarmos levando soluções
+                    ecológicas, como biodigestores e hortas comunitárias, para
+                    onde mais precisam.
+                  </p>
+                  <div class="video-btn-wrapper">
+                    <a
+                      href="https://www.youtube.com/watch?v=RvreULjnzFo"
+                      target="_blank"
+                      title="Assista ao vídeo"
+                      class="open-video-popup"
+                    >
+                      <i class="icon-play"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Caixa de doação -->
+            <div class="col-12 col-lg-6 col-xl-5">
+              <div
+                class="donation-future__thumb"
+                data-background="assets/images/donation/thumb-bg.png"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+              >
+                <h4>Ajuda para Projeto de Biodigestor</h4>
+                <div class="cause__progress progress-bar-single">
+                  <div class="cause-progress__bar">
+                    <div class="progress-bar-wrapper" data-percent="60%">
+                      <div class="progress-bar">
+                        <div class="progress-bar-percent">
+                          <span class="percent-value">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="cause-progress__goal">
+                  <p>Arrecadado: <span class="raised">R$ 8.500,00</span></p>
+                  <p>Meta: <span class="goal">R$ 15.000,00</span></p>
+                </div>
+
+                <hr />
+
+                <div class="made-amount">
+                  <span class="donation-amount">R$ 100</span>
+                  <span class="donation-amount">R$ 200</span>
+                  <span class="donation-amount active">R$ 500</span>
+                  <span class="donation-amount">R$ 1.000</span>
+                  <span class="donation-amount">R$ 10.000</span>
+                </div>
+
+                <div class="cta">
+                  <a
+                    href="donate-us.html"
+                    class="btn--primary"
+                    aria-label="Faça sua doação agora"
+                  >
+                    Faça uma doação <i class="icon-heart"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fundo decorativo -->
+        <div class="donation-bg">
+          <img
+            src="assets/images/donation/bg.png"
+            alt="Imagem de fundo"
+            class="parallax-image"
+          />
+          <img
+            src="assets/images/donation/shape.png"
+            alt="Forma decorativa"
+            class="shape"
+          />
+        </div>
+      </section>
+      <!-- ==== / Donation Section End ==== -->
+
+      <!-- ==== cause slider section start ==== -->
+      <section class="cause cause-three">
+        <div class="container">
+          <div class="row gutter-30 align-items-center">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div class="section__header">
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Conheça nossos projetos</span
+                >
+                <h2 class="title-animation">
+                  Apoie e <span>transforme</span> vidas com a gente
+                </h2>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 col-xl-5">
+              <div class="slider-navigation">
+                <button
+                  type="button"
+                  aria-label="prev slide"
+                  title="prev slide"
+                  class="prev-cause slider-btn"
+                >
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button
+                  type="button"
+                  aria-label="next slide"
+                  title="next slide"
+                  class="next-cause slider-btn slider-btn-next"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="cause__slider-wrapper">
+                <div class="cause__slider swiper">
+                  <div class="swiper-wrapper">
+                    <!-- PROJETO 1 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/one.png"
+                                alt="Projeto Educação"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Educação</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html"
+                                >Oficinas Educativas</a
+                              >
+                            </h6>
+                            <p>
+                              Capacitamos jovens e adultos com cursos práticos e
+                              acompanhamento pedagógico.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">72%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="72%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$7.200</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Quero apoiar</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- PROJETO 2 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/two.png"
+                                alt="Cesta básica"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Alimentação</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html"
+                                >Cestas Solidárias</a
+                              >
+                            </h6>
+                            <p>
+                              Distribuímos alimentos mensalmente para famílias
+                              em situação de vulnerabilidade.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">58%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="58%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$5.800</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Quero doar</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- PROJETO 3 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/three.png"
+                                alt="Saúde e atendimento"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Saúde</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html">Ações de Saúde</a>
+                            </h6>
+                            <p>
+                              Campanhas com exames gratuitos, atendimentos
+                              preventivos e orientação nas comunidades.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">65%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="65%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$6.500</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Contribuir agora</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- PROJETO 1 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/one.png"
+                                alt="Projeto Educação"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Educação</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html"
+                                >Oficinas Educativas</a
+                              >
+                            </h6>
+                            <p>
+                              Capacitamos jovens e adultos com cursos práticos e
+                              acompanhamento pedagógico.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">72%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="72%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$7.200</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Quero apoiar</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- PROJETO 2 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/two.png"
+                                alt="Cesta básica"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Alimentação</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html"
+                                >Cestas Solidárias</a
+                              >
+                            </h6>
+                            <p>
+                              Distribuímos alimentos mensalmente para famílias
+                              em situação de vulnerabilidade.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">58%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="58%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$5.800</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Quero doar</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- PROJETO 3 -->
+                    <div class="swiper-slide">
+                      <div class="cause__slider-inner">
+                        <div class="cause__slider-single">
+                          <div class="thumb">
+                            <a href="projeto-details.html">
+                              <img
+                                src="assets/images/cause/three.png"
+                                alt="Saúde e atendimento"
+                              />
+                            </a>
+                            <div class="tag"><a href="#">Saúde</a></div>
+                          </div>
+                          <div class="content">
+                            <h6>
+                              <a href="projeto-details.html">Ações de Saúde</a>
+                            </h6>
+                            <p>
+                              Campanhas com exames gratuitos, atendimentos
+                              preventivos e orientação nas comunidades.
+                            </p>
+                          </div>
+                          <div class="cause__slider-cta">
+                            <div class="cause__progress progress-bar-single">
+                              <div class="cause-progress__intro">
+                                <p>
+                                  <span>Doações</span
+                                  ><span class="percent-value">65%</span>
+                                </p>
+                              </div>
+                              <div class="cause-progress__bar">
+                                <div
+                                  class="progress-bar-wrapper"
+                                  data-percent="65%"
+                                >
+                                  <div class="progress-bar">
+                                    <div class="progress-bar-percent"></div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="cause-progress__goal">
+                                <p>
+                                  Arrecadado:
+                                  <span class="raised">R$6.500</span>
+                                </p>
+                                <p>Meta: <span class="goal">R$10.000</span></p>
+                              </div>
+                            </div>
+                            <div class="cause__cta">
+                              <a href="doar.html" class="btn--secondary"
+                                >Contribuir agora</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spade">
+          <img src="assets/images/help/spade.png" alt="Image" />
+        </div>
+      </section>
+      <!-- ==== / cause slider section end ==== -->
+
+      <!-- ==== seção de envolvimento com o IPASG ==== -->
+      <section class="help-three">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="help-three__inner">
+                <div
+                  class="section__header-secondary"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <div class="row gutter-30 align-items-center">
+                    <div class="col-12 col-lg-8 col-xxl-7">
+                      <div class="section__header mb-0">
+                        <span class="sub-title"
+                          ><i class="icon-donation"></i>Participe do IPASG</span
+                        >
+                        <h2 class="title-animation">
+                          Juntos podemos tornar o <span>mundo</span> melhor
+                        </h2>
+                      </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-xxl-5">
+                      <div class="help-cta">
+                        <a
+                          href="about-us.html"
+                          aria-label="nossa equipe"
+                          title="nossa equipe"
+                          class="btn--primary"
+                          >Saiba mais sobre nós<i
+                            class="fa-solid fa-arrow-right"
+                          ></i
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="help-three__wrapper">
+                  <div class="row gutter-60">
+                    <div class="col-12 col-md-6 col-xxl-3">
+                      <div
+                        class="help-three__single"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                      >
+                        <div class="help-three__thumb">
+                          <div class="thumb">
+                            <i class="icon-pack"></i>
+                          </div>
+                          <div class="help-three__tag">
+                            <h6>Etapa 01</h6>
+                          </div>
+                        </div>
+                        <div class="help-three__content">
+                          <h6>Escolha como participar</h6>
+                          <p>
+                            Você pode se voluntariar, doar, filiar-se ou ser
+                            parceiro de nossos projetos.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-3">
+                      <div
+                        class="help-three__single"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="300"
+                      >
+                        <div class="help-three__thumb">
+                          <div class="thumb">
+                            <i class="icon-credit-card"></i>
+                          </div>
+                          <div class="help-three__tag">
+                            <h6>Etapa 02</h6>
+                          </div>
+                        </div>
+                        <div class="help-three__content">
+                          <h6>Envie suas informações</h6>
+                          <p>
+                            Preencha nosso formulário com seus dados e
+                            interesses para entrarmos em contato.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-3">
+                      <div
+                        class="help-three__single"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="600"
+                      >
+                        <div class="help-three__thumb">
+                          <div class="thumb">
+                            <i class="icon-ship"></i>
+                          </div>
+                          <div class="help-three__tag">
+                            <h6>Etapa 03</h6>
+                          </div>
+                        </div>
+                        <div class="help-three__content">
+                          <h6>Participe de ações</h6>
+                          <p>
+                            Você será incluído em grupos e agendas conforme seu
+                            perfil e disponibilidade.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-xxl-3">
+                      <div
+                        class="help-three__single"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="900"
+                      >
+                        <div class="help-three__thumb">
+                          <div class="thumb">
+                            <i class="icon-truck"></i>
+                          </div>
+                          <div class="help-three__tag">
+                            <h6>Etapa 04</h6>
+                          </div>
+                        </div>
+                        <div class="help-three__content">
+                          <h6>Transforme vidas</h6>
+                          <p>
+                            Com sua ajuda, conseguimos levar conhecimento,
+                            sustentabilidade e cuidado a comunidades.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img
+                    src="assets/images/v-line.png"
+                    alt="Imagem"
+                    class="v-line d-none d-xxl-block"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="help-three-bg"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <img src="assets/images/bg-one.png" alt="Imagem" class="bg-help" />
+          <div class="poor-boy">
+            <img src="assets/images/poor-boy.png" alt="Imagem" class="poor" />
+            <img
+              src="assets/images/shape-three.png"
+              alt="Imagem"
+              class="shape"
+            />
+          </div>
+          <div class="parasuit">
+            <img src="assets/images/parasuit.png" alt="Imagem" />
+          </div>
+        </div>
+      </section>
+      <!-- ==== / fim da seção de envolvimento ==== -->
+
+      <!-- ==== Patrocinadores section start ==== -->
+      <div class="partner">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="partner__slider swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/one.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/two.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/three.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/four.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/five.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/one.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/two.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/three.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/four.png" alt="Image" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="partner__slider-single">
+                      <img src="assets/images/sponsor/five.png" alt="Image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ==== / Patrocinadores section end ==== -->
+
+      <!-- ==== seção de indicadores do IPASG ==== -->
+      <section class="counter">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="counter__inner">
+                <div
+                  class="counter__single"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  <div class="thumb">
+                    <i class="icon-support-hand"></i>
+                  </div>
+                  <div class="counter__content">
+                    <h2>
+                      <span class="odometer" data-odometer-final="25"></span
+                      ><span class="prefix">+</span>
+                    </h2>
+                    <h5>Membros ativos</h5>
+                  </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div
+                  class="counter__single"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="300"
+                >
+                  <div class="thumb">
+                    <i class="icon-documents"></i>
+                  </div>
+                  <div class="counter__content">
+                    <h2>
+                      <span class="odometer" data-odometer-final="15"></span
+                      ><span class="prefix">+</span>
+                    </h2>
+                    <h5>Projetos realizados</h5>
+                  </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div
+                  class="counter__single"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="600"
+                >
+                  <div class="thumb">
+                    <i class="icon-review"></i>
+                  </div>
+                  <div class="counter__content">
+                    <h2>
+                      <span class="odometer" data-odometer-final="200"></span
+                      ><span class="prefix">+</span>
+                    </h2>
+                    <h5>Famílias impactadas</h5>
+                  </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div
+                  class="counter__single"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay="900"
+                >
+                  <div class="thumb">
+                    <i class="icon-award"></i>
+                  </div>
+                  <div class="counter__content">
+                    <h2>
+                      <span class="odometer" data-odometer-final="50"></span
+                      ><span class="prefix">+</span>
+                    </h2>
+                    <h5>Oficinas e capacitações</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="poor">
+          <img
+            src="assets/images/poor-two.png"
+            alt="Imagem"
+            class="parallax-image"
+          />
+        </div>
+        <div
+          class="shape-left"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+        >
+          <img
+            src="assets/images/cta/shape-left.png"
+            alt="Imagem"
+            class="base-img"
+          />
+        </div>
+      </section>
+      <!-- ==== / fim da seção de indicadores ==== -->
+
+      <!-- ==== seção de depoimentos adaptada para o IPASG ==== -->
+      <section class="testimonial-three">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-7">
+              <div
+                class="section__header text-center"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <span class="sub-title"
+                  ><i class="icon-donation"></i>Transformando Vidas e o Meio
+                  Ambiente</span
+                >
+                <h2 class="title-animation">
+                  O que dizem sobre o <span>IPASG</span>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-10 col-xl-9 col-xxl-12">
+              <div class="testimonial-three__inner">
+                <div class="testimonial-three__slider swiper">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimonial-three__single">
+                        <div class="thumb">
+                          <img
+                            src="assets/images/depoimentos/maria.png"
+                            alt="Imagem de Maria"
+                          />
+                          <div class="review">
+                            <i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i>
+                          </div>
+                        </div>
+                        <div class="testimonial-three__content">
+                          <div class="author-info">
+                            <div class="author-content">
+                              <h6>Maria da Luz</h6>
+                              <p>Moradora da comunidade</p>
+                            </div>
+                            <div class="quote">
+                              <i class="icon-quotation-two"></i>
+                            </div>
+                          </div>
+                          <p>
+                            Com o apoio do IPASG, construímos nosso sistema de
+                            saneamento ecológico. Hoje vivemos com mais saúde e
+                            consciência ambiental.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="testimonial-three__single">
+                        <div class="thumb">
+                          <img
+                            src="assets/images/depoimentos/pedro.png"
+                            alt="Imagem de Pedro"
+                          />
+                          <div class="review">
+                            <i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i>
+                          </div>
+                        </div>
+                        <div class="testimonial-three__content">
+                          <div class="author-info">
+                            <div class="author-content">
+                              <h6>Pedro Almeida</h6>
+                              <p>Educador parceiro</p>
+                            </div>
+                            <div class="quote">
+                              <i class="icon-quotation-two"></i>
+                            </div>
+                          </div>
+                          <p>
+                            As oficinas de educação ambiental do IPASG mudaram a
+                            forma como meus alunos enxergam a natureza. Um
+                            trabalho essencial.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="testimonial-three__single">
+                        <div class="thumb">
+                          <img
+                            src="assets/images/depoimentos/ana.png"
+                            alt="Imagem de Ana"
+                          />
+                          <div class="review">
+                            <i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i><i class="icon-star"></i
+                            ><i class="icon-star"></i>
+                          </div>
+                        </div>
+                        <div class="testimonial-three__content">
+                          <div class="author-info">
+                            <div class="author-content">
+                              <h6>Ana Clara</h6>
+                              <p>Voluntária do projeto</p>
+                            </div>
+                            <div class="quote">
+                              <i class="icon-quotation-two"></i>
+                            </div>
+                          </div>
+                          <p>
+                            Participar das atividades do IPASG foi uma das
+                            experiências mais transformadoras da minha vida.
+                            Conhecimento e ação real!
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="slider-navigation">
+                <button
+                  type="button"
+                  aria-label="slide anterior"
+                  title="Anterior"
+                  class="prev-testimonial-three slider-btn"
+                >
+                  <i class="fa-solid fa-arrow-left"></i>
+                </button>
+                <button
+                  type="button"
+                  aria-label="próximo slide"
+                  title="Próximo"
+                  class="next-testimonial-three slider-btn slider-btn-next"
+                >
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="spade">
+          <img
+            src="assets/images/community/spade.png"
+            alt="Imagem"
+            class="base-img"
+          />
+        </div>
+        <div class="spade-green">
+          <img src="assets/images/sprade-green.png" alt="Imagem" />
+        </div>
+      </section>
+      <!-- ==== seção de depoimentos adaptada para o IPASG ==== -->
+
+      <!-- ==== faq section start ==== -->
+      <!-- <section class="faq">
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-12 col-lg-8 col-xl-6">
@@ -1413,10 +1748,11 @@
             <div class="shape d-none d-lg-block">
                <img src="assets/images/faq/shape.png" alt="Image">
             </div>
-         </section>
-         <!-- ==== / faq section end ==== -->
-         <!-- ==== event section start ==== -->
-         <section class="event">
+         </section> -->
+      <!-- ==== / faq section end ==== -->
+
+      <!-- ==== event section start ==== -->
+      <!-- <section class="event">
             <div class="container">
                <div class="row justify-content-center">
                   <div class="col-12 col-md-8 col-xl-7">
@@ -1488,10 +1824,11 @@
             <div class="spade">
                <img src="assets/images/blog/spade-base.png" alt="Image" class="base-img">
             </div>
-         </section>
-         <!-- ==== / event section end ==== -->
-         <!-- ==== contact section start ==== -->
-         <section class="contact">
+         </section> -->
+      <!-- ==== / event section end ==== -->
+
+      <!-- ==== contact section start ==== -->
+      <!-- <section class="contact">
             <div class="container">
                <div class="row justify-content-end">
                   <div class="col-12 col-md-10 col-xl-7">
@@ -1543,144 +1880,251 @@
             <div class="shape-left" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
                <img src="assets/images/cta/shape-left.png" alt="Image" class="base-img">
             </div>
-         </section>
-         <!-- ==== / contact section end ==== -->
-         <!-- ==== footer start ==== -->
-         <footer class="footer-three">
-            <div class="container">
-               <div class="row gutter-30">
-                  <div class="col-12 col-lg-3">
-                     <div class="footer-three__logo" data-aos="fade-up" data-aos-duration="1000">
-                        <a href="index.html">
-                        <img src="assets/images/logo-light.png" alt="Image">
-                        </a>
-                     </div>
-                  </div>
-                  <div class="col-12 col-lg-9">
-                     <div class="footer-three__inner" data-aos="fade-up" data-aos-duration="1000"
-                        data-aos-delay="300">
-                        <div class="footer__bottom-left">
-                           <ul class="footer__bottom-list justify-content-center justify-content-lg-end">
-                              <li><a href="contact-us.html">Suporte</a></li>
-                              <li><a href="terms-conditions.html">Termos e Condições</a></li>
-                              <li><a href="privacy-policy.html">Política de Privacidade</a></li>
-                           </ul>
-                        </div>
-                        <div class="social">
-                           <a href="https://www.facebook.com/" target="_blank" aria-label="share us on facebook"
-                              title="facebook">
-                           <i class="fa-brands fa-facebook-f"></i>
-                           </a>
-                           <a href="https://vimeo.com/" target="_blank" aria-label="share us on vimeo"
-                              title="vimeo">
-                           <i class="fa-brands fa-instagram"></i>
-                           </a>
-                           <a href="https://x.com/" target="_blank" aria-label="share us on twitter"
-                              title="twitter">
-                           <i class="fa-brands fa-twitter"></i>
-                           </a>
-                           <a href="https://www.linkedin.com/" target="_blank" aria-label="share us on linkedin"
-                              title="linkedin">
-                           <i class="fa-brands fa-linkedin-in"></i>
-                           </a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+         </section> -->
+      <!-- ==== / contact section end ==== -->
+
+      <!-- ==== FOOTER IPASG START ==== -->
+      <footer class="footer-three">
+        <div class="container">
+          <div class="row gutter-60">
+            <!-- LOGO -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+              >
+                <div class="footer-two__widget-logo">
+                  <a href="index.html">
+                    <img src="assets/images/logo-light.png" alt="IPASG" />
+                  </a>
+                </div>
+              </div>
             </div>
-            <hr class="divider">
-            <div class="container">
-               <div class="row gutter-80">
-                  <div class="col-12 col-md-6 col-xl-3">
-                     <div class="footer-three__widget" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="footer-two__widget-intro">
-                           <h5>Sobre nós</h5>
-                        </div>
-                        <div class="footer-three__widget-single">
-                           <p>IPASG
-                              <br>
-                              Instituto de Permacultura 
-                              <br>
-                              da Serra Geral
-                           </p>
-                           <p><a href="mailto:moradasustentavel@gmail.com">moradasustentavel@gmail.com</a></p>
-                        </div>
-                        <div class="footer-three__widget-alt">
-                           <div class="footer-two__widget-intro">
-                              <h6 class="title-animation">Funcionamento</h6>
-                           </div>
-                           <div class="footer-three__widget-single">
-                              <p>8h - 17hpm
-                              </p>
-                              <p>Seg a Sex</p>
-                           </div>
-                        </div>
-                     </div>
+
+            <!-- LINKS -->
+            <div class="col-12 col-md-6 col-xl-2 offset-xl-1">
+              <div
+                class="footer-two__widget"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Nossos links</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
                   </div>
-
-
-               </div>
+                </div>
+                <div class="footer-two__widget-content">
+                  <ul>
+                    <li>
+                      <a href="about-us.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Sobre nós</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-team.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Membros</a
+                      >
+                    </li>
+                    <li>
+                      <a href="our-causes.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Projetos</a
+                      >
+                    </li>
+                    <li>
+                      <a href="contact-us.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Contato</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="footer-two__copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="footer-two__copyright-inner text-center">
-                           <p>Copyright &copy; <span id="copyrightYear"></span> <a href="index.html">IPASG</a>.
-                              Todos os direitos reservados
-                           </p>
-                        </div>
-                     </div>
+
+            <!-- SERVIÇOS -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget footer-two__widget--alternate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="400"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Serviços</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
                   </div>
-               </div>
+                </div>
+                <div class="footer-two__widget-content">
+                  <ul>
+                    <li>
+                      <a href="projetos/meliponicultura.html"
+                        ><i class="fa-solid fa-arrow-right"></i
+                        >Meliponicultura</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projetos/saneamento-ecologico.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Saneamento
+                        Ecológico</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projetos/bioconstrucao.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Bioconstrução</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projetos/telhado-verde.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Telhado Verde</a
+                      >
+                    </li>
+                    <li>
+                      <a href="projetos/educacao-ambiental.html"
+                        ><i class="fa-solid fa-arrow-right"></i>Educação
+                        Ambiental</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-         </footer>
-         <!-- ==== / footer end ==== -->
-         <!-- ==== custom cursor start ==== -->
-         <div class="mouseCursor cursor-outer"></div>
-         <div class="mouseCursor cursor-inner"></div>
-         <!-- ==== / custom cursor end ==== -->
-         <!-- ==== scroll to top start ==== -->
-         <button class="progress-wrap" aria-label="scroll indicator" title="back to top">
-            <span></span>
-            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-               <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-            </svg>
-         </button>
-         <!-- ==== / scroll to top end ==== -->
 
-      </div>
-      <!-- ==== js dependencies start ==== -->
-      <!-- jquery -->
-      <script src="assets/js/jquery-3.7.1.min.js"></script>
-      <!-- bootstrap five js -->
-      <script src="assets/js/bootstrap.bundle.min.js"></script>
-      <!-- nice select js -->
-      <script src="assets/js/jquery.nice-select.min.js"></script>
-      <!-- magnific popup js -->
-      <script src="assets/js/jquery.magnific-popup.min.js"></script>
-      <!-- swiper slider js -->
-      <script src="assets/js/swiper-bundle.min.js"></script>
-      <!-- viewport js -->
-      <script src="assets/js/viewport.jquery.js"></script>
-      <!-- odometer js -->
-      <script src="assets/js/odometer.min.js"></script>
-      <!-- vanilla tilt js -->
-      <script src="assets/js/vanilla-tilt.min.js"></script>
-      <!-- aos js -->
-      <script src="assets/js/aos.js"></script>
+            <!-- CONTATO -->
+            <div class="col-12 col-md-6 col-xl-3">
+              <div
+                class="footer-two__widget footer-two__widget--alternate"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600"
+              >
+                <div class="footer-two__widget-intro">
+                  <h5>Contato</h5>
+                  <div class="line">
+                    <span class="large-line"></span>
+                    <span class="small-line"></span>
+                    <span class="small-line"></span>
+                  </div>
+                </div>
+                <div
+                  class="footer-two__widget-content footer-two__widget-content--contact"
+                >
+                  <ul>
+                    <li>
+                      <a
+                        href="https://maps.app.goo.gl/Gr9pTNqz5FRNrjQw8"
+                        target="_blank"
+                      >
+                        <i class="fa-solid fa-location-dot"></i>Estrada
+                        Municipal, 885 – Rio da Invernada – Mampituba/RS
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+5551992429974">
+                        <i class="fa-solid fa-phone"></i> (51) 99242-9974
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:moradasustentavel@gmail.com">
+                        <i class="fa-regular fa-envelope"></i>
+                        moradasustentavel@gmail.com
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!-- splittext js -->
-      <script src="assets/js/SplitText.min.js"></script>
-      <!-- scrollto js -->
-      <script src="assets/js/ScrollToPlugin.min.js"></script>
-      <!-- scrolltrigger js -->
-      <script src="assets/js/ScrollTrigger.min.js"></script>
-      <!-- gsap js -->
-      <script src="assets/js/gsap.min.js"></script>
-      <!-- ==== / js dependencies end ==== -->
+          <!-- COPYRIGHT -->
+          <div class="footer-two__copyright">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 text-center text-lg-start">
+                <p>
+                  &copy; <span id="copyrightYear"></span>
+                  <a href="index.html">IPASG</a>. Todos os direitos reservados.
+                </p>
+              </div>
+              <div class="col-12 col-lg-6 text-center text-lg-end">
+                <ul class="footer__bottom-list d-inline-flex gap-3">
+                  <li><a href="terms-conditions.html">Termos de Uso</a></li>
+                  <li>
+                    <a href="privacy-policy.html">Política de Privacidade</a>
+                  </li>
+                  <li><a href="cookies.html">Cookies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- ==== / FOOTER IPASG END ==== -->
 
-      <!-- main js -->
-      <script src="assets/js/custom.js"></script>
-   </body>
+      <!-- Script para o ano automático -->
+      <script>
+        document.getElementById('copyrightYear').textContent =
+          new Date().getFullYear();
+      </script>
+
+      <!-- ==== custom cursor start ==== -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner"></div>
+      <!-- ==== / custom cursor end ==== -->
+      <!-- ==== scroll to top start ==== -->
+      <button
+        class="progress-wrap"
+        aria-label="scroll indicator"
+        title="back to top"
+      >
+        <span></span>
+        <svg
+          class="progress-circle svg-content"
+          width="100%"
+          height="100%"
+          viewBox="-1 -1 102 102"
+        >
+          <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+      </button>
+      <!-- ==== / scroll to top end ==== -->
+    </div>
+    <!-- ==== js dependencies start ==== -->
+    <!-- jquery -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- bootstrap five js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- nice select js -->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- swiper slider js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- viewport js -->
+    <script src="assets/js/viewport.jquery.js"></script>
+    <!-- odometer js -->
+    <script src="assets/js/odometer.min.js"></script>
+    <!-- vanilla tilt js -->
+    <script src="assets/js/vanilla-tilt.min.js"></script>
+    <!-- aos js -->
+    <script src="assets/js/aos.js"></script>
+
+    <!-- splittext js -->
+    <script src="assets/js/SplitText.min.js"></script>
+    <!-- scrollto js -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- scrolltrigger js -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- gsap js -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- ==== / js dependencies end ==== -->
+
+    <!-- main js -->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
